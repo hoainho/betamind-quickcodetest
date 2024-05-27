@@ -26,15 +26,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="header">
-          <Image
-            src={"/images/logo.png"}
-            width={75}
-            height={75}
-            alt={"logo-main"}
-            className="object-contain"
-          />
-        </div>
         <div className="flex-center w-full h-full">{children}</div>
       </body>
     </html>

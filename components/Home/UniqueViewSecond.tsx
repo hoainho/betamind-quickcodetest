@@ -14,12 +14,6 @@ const UniqueViewSecond = ({ data }: ViewSecondProps) => {
   return (
     <div className="wrap">
       <div className="flex-center gap-2">
-        <Image
-          src={"/images/logo.png"}
-          width={40}
-          height={40}
-          alt="logo-betamind"
-        />
         <h1 className="clr-white">Betamind - Quick Coding Test</h1>
       </div>
 

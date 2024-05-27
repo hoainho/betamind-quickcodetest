@@ -13,12 +13,6 @@ const DefaultPage = async (props: Props) => {
       <Suspense
         fallback={
           <div className="flex-center">
-            <Image
-              src={"/images/logo.png"}
-              width={40}
-              height={40}
-              alt="logo-betamind"
-            />
             <h1 className="clr-white">Betamind</h1>
           </div>
         }

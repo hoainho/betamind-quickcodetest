@@ -1,9 +1,14 @@
 'use client'
 
-import { useState, useEffect, useMemo, useCallback } from 'react';
-import { fetchData, ApiResponse } from '@/actions/fetchViewSeconds';
+import { useMemo } from 'react';
 
-// Define the shape of the hook's return value
+  /**
+   * Generates an array of unique view seconds from a two-dimensional array of numbers.
+   *
+   * @param {number[][]} data - A two-dimensional array of numbers.
+   * @return {UseUniqViewSecondsResult} An object containing a unique array of view seconds.
+   */
+
 interface UseUniqViewSecondsResult {
   uniqueViewSeconds: number[];
 }
